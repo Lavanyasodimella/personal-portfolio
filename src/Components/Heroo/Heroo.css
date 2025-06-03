@@ -1,0 +1,84 @@
+.heroo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+}
+.heroo img{
+    margin-top: 100px;
+}
+.heroo h1{
+    text-align: center;
+    width: 90%;
+    font-size: 60px;
+    font-weight: 500;
+}
+.heroo h1 span{
+    background: linear-gradient(270deg,rgb(250, 86, 16) 0.59%,rgb(239, 92, 239) 102.34%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.heroo p{
+    width: 50%;
+    text-align: center;
+    font-size:24px;
+    line-height: 40px;
+}
+.heroo-action{
+    display: flex;
+    align-items: center;
+    gap:25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.heroo-connect{
+    padding: 10px 10px;
+    border-radius: 80px;
+    background: linear-gradient(267deg,violet 3.66%,grey 45.67%);
+    cursor: pointer;
+}
+.heroo-resume{
+    padding: 10px 15px;
+    border-radius: 80px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+.heroo-connect:hover{
+    border:2px solid #fff;
+}
+.heroo-resume:hover{
+    background: linear-gradient(267deg,rgb(99, 193, 243) 3.66%,rgba(253, 109, 109, 0.87) 45.67%);
+}
+@media(max-width:768px){
+    .heroo img{
+        margin-top: 200px;
+        width: 300px;
+    }
+    .heroo h1{
+        margin-top: 50px;
+        width: 90%;
+        font-size: 50px;
+    }
+    .heroo p{
+        width: 60%;
+        font-size: 18px;
+        line-height: 32px;
+        margin: 10px 0px;
+    }
+    .heroo-action{
+        gap: 16px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+    .heroo-connect{
+        padding: 20px 30px;
+        border-radius: 40px;
+    }
+    .heroo-resume{
+        padding: 20px 50px;
+        border-radius: 40px;
+    }
+}
